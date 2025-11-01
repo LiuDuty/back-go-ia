@@ -16,8 +16,8 @@ from contextlib import asynccontextmanager
 API_KEY = "03038b49c41b4bbdb1ce54888b54d223.cOjmjTibnl3uqERW"
 API_URL = "https://api.z.ai/api/paas/v4/chat/completions"
 DB_FILE = "conversas.db"
-RENDER_URL = "https://chatzai.onrender.com"
-FRONTEND_URL = "https://chat-zai-frontend.vercel.app"
+RENDER_URL = "https://back-go-ia.onrender.com"
+FRONTEND_URL = "https://go-ia.vercel.app"
 
 SYSTEM_PROMPT = (
  """🎯 **Oi! Sou o QUIZ Azure** — seu assistente dedicado exclusivamente ao **Microsoft Azure Fundamentals (AZ-900)**!
