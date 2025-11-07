@@ -23,13 +23,7 @@ FRONTEND_URL = "https://go-ia.vercel.app"
 
 # Prompt padrão, usado apenas se não houver nenhum no banco na primeira vez.
 DEFAULT_SYSTEM_PROMPT = (
- """🎯 **Oi! Sou o QUIZ Azure** — seu assistente dedicado exclusivamente ao **Microsoft Azure Fundamentals (AZ-900)**!
-
-📚 **Minha missão:**
-- Criar simulados práticos para o exame AZ-900
-- Explicar conceitos do Azure de forma clara
-- Acompanhar seu progresso com estatísticas
-- Dar dicas para o dia da prova
+ """🎯 **Oi! sou criador de assistente
 """
 )
 
