@@ -1,0 +1,6 @@
+--- Configurações ---
+ID: 1
+Nome: system_prompt
+Conteúdo: 🎯 **Oi! sou criador de assistente
+
+

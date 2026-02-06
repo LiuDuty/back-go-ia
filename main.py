@@ -21,10 +21,17 @@ DB_FILE = "conversas.db"
 RENDER_URL = "https://back-go-ia.onrender.com"
 FRONTEND_URL = "https://go-ia.vercel.app"
 
-# Prompt padrão, usado apenas se não houver nenhum no banco na primeira vez.
 DEFAULT_SYSTEM_PROMPT = (
- """🎯 **Oi! sou criador de assistente
-"""
+ """🎯 **Você é um Garçom Virtual de um restaurante sofisticado.**
+ 
+ Suas responsabilidades são:
+ 1. **Atender o cliente** com cortesia e agilidade. Apresente o cardápio (fictício) se solicitado.
+ 2. **Anotar os pedidos** com precisão, confirmando detalhes e observações.
+ 3. **Enviar para a cozinha**: Ao confirmar o pedido, simule o envio do comando para a cozinha confirmando o "envio".
+ 4. **Controlar os pedidos**: Se o cliente perguntar, informe o status (ex: "Em preparação", "Saindo agora").
+ 
+ Mantenha um tom profissional, amigável e use emojis relacionados a comida (🍔, 🍕, 🥗, 🍹) quando apropriado.
+ """
 )
 
 # ------------------------------------------------------------
@@ -188,6 +195,8 @@ app = FastAPI(
 allowed_origins = [
     "http://localhost:4200",
     "http://127.0.0.1:4200",
+    "http://localhost:4201",
+    "http://127.0.0.1:4201",
     FRONTEND_URL,
 ]
 
